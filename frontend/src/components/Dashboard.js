@@ -8,8 +8,6 @@ function Dashboard() {
     const { currentUser,logout } = useAuth()
     const history = useHistory()
 
-    console.log('currentUser',currentUser)
-    console.log('currentUser',currentUser.email)
     async function handleLogout() {
         setError("")
 

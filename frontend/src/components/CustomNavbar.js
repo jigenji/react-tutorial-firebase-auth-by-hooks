@@ -13,8 +13,9 @@ function CustomNavbar() {
                     <Nav.Link href="#pricing">Pricing</Nav.Link>
                 </Nav>
                 <Nav>
-                    <Nav.Link href="#deets">More deets</Nav.Link>
-                    <Nav.Link eventKey={2} href="#memes">Dank memes</Nav.Link>
+                    <Nav.Link href="#signin">Sign In</Nav.Link>
+                    <Nav.Link href="#signup">Sign Up</Nav.Link>
+                    <Nav.Link href="#signout">Sign Out</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
             </Navbar>
